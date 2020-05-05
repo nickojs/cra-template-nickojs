@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "setup-eslint": "yarn add eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --dev"
+    "setup-eslint": "yarn add eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks --dev"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,6 +43,7 @@
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0"
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^4.0.0"
   }
 }
