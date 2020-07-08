@@ -1,6 +1,6 @@
 {
   "name": "cra-template-nickojs",
-  "version": "0.3.4",
+  "version": "0.3.6",
   "private": false,
   "dependencies": {
     "axios": "^0.19.2",
@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "setup-eslint": "yarn add eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks --dev"
+    "setup-eslint": "yarn add eslint-plugin-babel eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks --dev"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
